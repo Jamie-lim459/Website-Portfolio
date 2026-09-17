@@ -53,14 +53,14 @@ export default function Reviews() {
         </Reveal>
 
         <Reveal className="lg:col-span-6 space-y-4" delay={1}>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-white/70">
             <span>✦</span>
             <span>Reviews</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-white leading-tight">
             What Clients Say
           </h2>
-          <p className="text-sm text-neutral-400">
+          <p className="text-sm text-white/70">
             Real feedback from businesses I&apos;ve worked with to build a
             stronger, more professional online presence.
           </p>
@@ -88,18 +88,18 @@ export default function Reviews() {
                     <h4 className="text-sm font-semibold text-white">
                       {review.name}
                     </h4>
-                    <p className="text-xs text-neutral-500">{review.role}</p>
+                    <p className="text-xs text-white/50">{review.role}</p>
                   </div>
                 </div>
               ) : (
                 <h4 className="text-sm font-semibold text-white mb-4">
                   {review.name}
-                  <span className="block text-xs text-neutral-500 mt-0.5">
+                  <span className="block text-xs text-white/50 mt-0.5">
                     {review.role}
                   </span>
                 </h4>
               )}
-              <p className="text-xs sm:text-sm text-neutral-300 font-light leading-relaxed">
+              <p className="text-xs sm:text-sm text-white/90 font-light leading-relaxed">
                 &ldquo;{review.quote}&rdquo;
               </p>
             </div>
@@ -107,7 +107,7 @@ export default function Reviews() {
               {Array.from({ length: 5 }).map((_, star) => (
                 <span key={star}>★</span>
               ))}
-              <span className="text-neutral-400 ml-2 font-mono text-xs">
+              <span className="text-white/70 ml-2 font-mono text-xs">
                 5.0
               </span>
             </div>
@@ -121,7 +121,7 @@ export default function Reviews() {
             <h3 className="text-4xl sm:text-5xl font-semibold text-white">
               {metric.value}
             </h3>
-            <p className="text-xs text-neutral-400">{metric.label}</p>
+            <p className="text-xs text-white/70">{metric.label}</p>
           </div>
         ))}
       </Reveal>

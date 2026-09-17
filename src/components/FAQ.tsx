@@ -63,14 +63,14 @@ export default function FAQ() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         <div className="lg:col-span-5 space-y-6">
           <Reveal>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 mb-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-white/70 mb-4">
               <span>✦</span>
               <span>FAQ&apos;S</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-white mb-3">
               Questions?
             </h2>
-            <p className="text-sm text-neutral-400">
+            <p className="text-sm text-white/70">
               Everything you need to know about my websites, pricing, ongoing
               support and how the process works.
             </p>
@@ -87,7 +87,7 @@ export default function FAQ() {
           </Reveal>
 
           <Reveal delay={2}>
-            <div className="flex flex-wrap gap-2 text-xs text-neutral-300">
+            <div className="flex flex-wrap gap-2 text-xs text-white/90">
               <span className="px-3 py-1.5 rounded-full bg-neutral-900 border border-neutral-800">
                 Web Design
               </span>
@@ -100,7 +100,7 @@ export default function FAQ() {
             </div>
             <a
               href="#contact"
-              className="inline-block mt-6 px-6 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs sm:text-sm text-neutral-200 hover:bg-neutral-800 transition"
+              className="inline-block mt-6 px-6 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs sm:text-sm text-white hover:bg-neutral-800 transition"
             >
               Start a Project
             </a>
@@ -128,7 +128,7 @@ export default function FAQ() {
                   <span>{faq.question}</span>
                   <span
                     className={`text-sm transition-transform duration-300 ${
-                      isOpen ? "rotate-0 text-neutral-400" : "rotate-45 text-neutral-400"
+                      isOpen ? "rotate-0 text-white/70" : "rotate-45 text-white/70"
                     }`}
                   >
                     ✕
@@ -138,7 +138,7 @@ export default function FAQ() {
                   className="grid transition-[grid-template-rows] duration-300 ease-out"
                   style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
                 >
-                  <div className="overflow-hidden px-5 text-xs text-neutral-400 font-light leading-relaxed pb-4">
+                  <div className="overflow-hidden px-5 text-xs text-white/70 font-light leading-relaxed pb-4">
                     {faq.answer}
                   </div>
                 </div>

@@ -38,14 +38,14 @@ export default function Process() {
 
         <div className="lg:col-span-7 flex flex-col justify-between space-y-8">
           <Reveal>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 mb-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-white/70 mb-4">
               <span>✦</span>
               <span>How i work</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-white mb-3">
               From Idea To Online
             </h2>
-            <p className="text-sm text-neutral-400 font-normal max-w-md">
+            <p className="text-sm text-white/70 font-normal max-w-md">
               A simple, streamlined process to take your business from an idea
               to a modern online presence.
             </p>
@@ -58,7 +58,7 @@ export default function Process() {
               </a>
               <a
                 href="#projects"
-                className="px-5 py-2 rounded-full bg-neutral-900 border border-neutral-800 text-neutral-300 text-xs sm:text-sm hover:bg-neutral-800 transition"
+                className="px-5 py-2 rounded-full bg-neutral-900 border border-neutral-800 text-white/90 text-xs sm:text-sm hover:bg-neutral-800 transition"
               >
                 View My Work
               </a>
@@ -74,16 +74,16 @@ export default function Process() {
               >
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-3">
-                    <span className="text-neutral-400 text-base">{step.icon}</span>
+                    <span className="text-white/70 text-base">{step.icon}</span>
                     <h4 className="text-base sm:text-lg font-medium text-white">
                       {step.title}
                     </h4>
                   </div>
-                  <span className="text-xs font-mono text-neutral-500">
+                  <span className="text-xs font-mono text-white/50">
                     {index + 1}
                   </span>
                 </div>
-                <p className="text-xs sm:text-sm text-neutral-400 font-light mt-3 leading-relaxed pl-7">
+                <p className="text-xs sm:text-sm text-white/70 font-light mt-3 leading-relaxed pl-7">
                   {step.body}
                 </p>
               </Reveal>

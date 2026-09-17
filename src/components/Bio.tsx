@@ -60,7 +60,7 @@ export default function Bio() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-white mb-6">
               Meet Jamie
             </h2>
-            <p className="text-sm sm:text-base text-neutral-400 font-normal leading-relaxed max-w-xl">
+            <p className="text-sm sm:text-base text-white/70 font-normal leading-relaxed max-w-xl">
               I&apos;m Jamie, a web designer focused on helping businesses build
               a modern and professional online presence. I create clean,
               responsive websites designed around each business, while also
@@ -69,7 +69,7 @@ export default function Bio() {
             </p>
           </Reveal>
 
-          <Reveal delay={1} className="flex flex-wrap gap-2 text-xs text-neutral-300">
+          <Reveal delay={1} className="flex flex-wrap gap-2 text-xs text-white/90">
             {SKILLS.map((skill) => (
               <span
                 key={skill}
@@ -89,13 +89,13 @@ export default function Bio() {
                 key={item.role}
                 className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-4 py-3.5 items-center"
               >
-                <span className="sm:col-span-4 text-neutral-200 font-medium">
+                <span className="sm:col-span-4 text-white font-medium">
                   {item.role}
                 </span>
-                <span className="sm:col-span-6 text-neutral-400 font-light">
+                <span className="sm:col-span-6 text-white/70 font-light">
                   {item.detail}
                 </span>
-                <span className="sm:col-span-2 sm:text-right text-neutral-500 font-mono text-xs">
+                <span className="sm:col-span-2 sm:text-right text-white/50 font-mono text-xs">
                   {item.status}
                 </span>
               </div>
@@ -118,19 +118,19 @@ export default function Bio() {
 
       <div className="mt-20 pt-8">
         <Reveal className="flex items-center justify-between mb-6">
-          <h3 className="text-sm font-medium tracking-wide text-neutral-300 flex items-center gap-2">
-            Recent Works <span className="text-xs text-neutral-500">⊕</span>
+          <h3 className="text-sm font-medium tracking-wide text-white/90 flex items-center gap-2">
+            Recent Works <span className="text-xs text-white/50">⊕</span>
           </h3>
           <div className="flex items-center gap-2">
             <button
               aria-label="Previous works"
-              className="w-8 h-8 rounded-full border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-white hover:border-neutral-700 transition text-xs"
+              className="w-8 h-8 rounded-full border border-neutral-800 flex items-center justify-center text-white/70 hover:text-white hover:border-neutral-700 transition text-xs"
             >
               ‹
             </button>
             <button
               aria-label="Next works"
-              className="w-8 h-8 rounded-full border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-white hover:border-neutral-700 transition text-xs"
+              className="w-8 h-8 rounded-full border border-neutral-800 flex items-center justify-center text-white/70 hover:text-white hover:border-neutral-700 transition text-xs"
             >
               ›
             </button>
@@ -152,7 +152,7 @@ export default function Bio() {
                 className="absolute inset-0 object-cover filter grayscale group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <span className="relative z-10 inline-flex items-center justify-center text-[10px] text-neutral-300 bg-black/70 px-2 py-1 rounded-full border border-neutral-800">
+              <span className="relative z-10 inline-flex items-center justify-center text-[10px] text-white/90 bg-black/70 px-2 py-1 rounded-full border border-neutral-800">
                 View Casestudy ↗
               </span>
             </Reveal>

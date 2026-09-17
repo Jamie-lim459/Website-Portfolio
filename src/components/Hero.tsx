@@ -17,7 +17,7 @@ export default function Hero() {
         className="flex flex-col items-center justify-center text-center my-auto w-full max-w-4xl"
         delay={1}
       >
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-neutral-300 tracking-wide mb-8 shadow-inner">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-white/90 tracking-wide mb-8 shadow-inner">
           <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 inline-block" />
           <span>Modern Websites &amp; Online Presence</span>
         </div>
@@ -31,7 +31,7 @@ export default function Hero() {
               Presence
             </span>
           </h1>
-          <p className="max-w-xl mx-auto text-sm sm:text-base text-neutral-400 font-normal leading-relaxed pt-2">
+          <p className="max-w-xl mx-auto text-sm sm:text-base text-white/70 font-normal leading-relaxed pt-2">
             Modern websites built to make your business look professional, get
             found online, and turn visitors into customers.
           </p>
@@ -53,7 +53,7 @@ export default function Hero() {
       </Reveal>
 
       <Reveal className="w-full flex flex-col items-center gap-8 pb-4 z-10" delay={3}>
-        <div className="flex items-center justify-between w-full max-w-xs px-4 text-[10px] sm:text-[11px] font-medium text-neutral-500 uppercase tracking-widest">
+        <div className="flex items-center justify-between w-full max-w-xs px-4 text-[10px] sm:text-[11px] font-medium text-white/50 uppercase tracking-widest">
           <span>SCROLL DOWN</span>
           <div className="w-5 h-8 rounded-full border border-neutral-700 flex items-start justify-center p-1">
             <div className="w-1 h-2 rounded-full bg-neutral-400 animate-bounce" />
@@ -62,14 +62,14 @@ export default function Hero() {
         </div>
 
         <div className="w-full max-w-5xl border-t border-neutral-900/80 pt-8 mt-2">
-          <div className="flex flex-wrap items-center justify-center gap-10 sm:gap-16 md:gap-20 text-neutral-500 font-medium tracking-widest text-xs sm:text-sm uppercase">
-            <span className="hover:text-neutral-300 transition-colors font-serif tracking-widest">
+          <div className="flex flex-wrap items-center justify-center gap-10 sm:gap-16 md:gap-20 text-white/50 font-medium tracking-widest text-xs sm:text-sm uppercase">
+            <span className="hover:text-white transition-colors font-serif tracking-widest">
               Pristine Cleanz
             </span>
-            <span className="hover:text-neutral-300 transition-colors flex items-center gap-1.5 font-sans">
+            <span className="hover:text-white transition-colors flex items-center gap-1.5 font-sans">
               Anto cuts
             </span>
-            <span className="hover:text-neutral-300 transition-colors font-serif normal-case text-sm tracking-normal">
+            <span className="hover:text-white transition-colors font-serif normal-case text-sm tracking-normal">
               unanimous
             </span>
           </div>

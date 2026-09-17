@@ -51,18 +51,18 @@ export default function Services() {
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-12">
         <Reveal className="lg:col-span-7 space-y-5">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-white/70">
             <span>✦</span>
             <span>What I Do</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-medium tracking-tight text-white">
             Services
           </h2>
-          <p className="text-sm sm:text-base text-neutral-400 max-w-lg">
+          <p className="text-sm sm:text-base text-white/70 max-w-lg">
             Helping businesses build a professional online presence with modern
             websites, better local visibility, and ongoing digital support.
           </p>
-          <div className="flex flex-wrap gap-2 text-xs text-neutral-300 pt-2">
+          <div className="flex flex-wrap gap-2 text-xs text-white/90 pt-2">
             {CATEGORY_TAGS.map((tag) => (
               <span
                 key={tag}
@@ -81,7 +81,7 @@ export default function Services() {
             </a>
             <a
               href="#projects"
-              className="px-5 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-neutral-300 text-xs sm:text-sm hover:bg-neutral-800 transition"
+              className="px-5 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-white/90 text-xs sm:text-sm hover:bg-neutral-800 transition"
             >
               View My Work
             </a>
@@ -110,7 +110,7 @@ export default function Services() {
               <span className="text-sm">{service.icon}</span>
               <h3 className="text-base font-medium">{service.title}</h3>
             </div>
-            <p className="text-xs sm:text-sm text-neutral-400 font-light leading-relaxed">
+            <p className="text-xs sm:text-sm text-white/70 font-light leading-relaxed">
               {service.body}
             </p>
           </Reveal>
@@ -118,7 +118,7 @@ export default function Services() {
       </div>
 
       <Reveal className="ticker-mask overflow-hidden pt-12 pb-2 group/ticker" delay={2}>
-        <div className="flex items-center gap-3 whitespace-nowrap text-xs text-neutral-400 w-max animate-ticker">
+        <div className="flex items-center gap-3 whitespace-nowrap text-xs text-white/70 w-max animate-ticker">
           {[...TICKER_PILLS, ...TICKER_PILLS].map((pill, index) => (
             <span
               key={`${pill}-${index}`}

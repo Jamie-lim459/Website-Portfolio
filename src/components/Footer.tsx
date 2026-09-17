@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
 
       <Reveal className="relative z-10 flex flex-col items-center justify-center text-center max-w-4xl mx-auto my-auto pt-28 pb-16 px-4">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-neutral-300 mb-8 shadow-inner">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-900/80 border border-neutral-800 text-xs text-white/90 mb-8 shadow-inner">
           <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 inline-block" />
           <span>Available For Work</span>
         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           Book a Free Call
         </a>
 
-        <div className="flex items-center justify-center gap-5 text-neutral-400 text-sm">
+        <div className="flex items-center justify-center gap-5 text-white/70 text-sm">
           <a
             href="#"
             className="hover:text-white transition-colors duration-200 inline-flex items-center justify-center"
@@ -46,7 +46,7 @@ export default function Footer() {
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
             </svg>
           </a>
-          <span className="text-neutral-700 text-xs">|</span>
+          <span className="text-white/50 text-xs">|</span>
           <a
             href="#"
             className="hover:text-white transition-colors duration-200 inline-flex items-center justify-center"
@@ -59,17 +59,17 @@ export default function Footer() {
         </div>
       </Reveal>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-4 pt-12 pb-6 px-4 text-xs text-neutral-400">
+      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-4 pt-12 pb-6 px-4 text-xs text-white/70">
         <div className="text-center md:text-left">
           <a
-            className="hover:text-white transition text-neutral-400"
+            className="hover:text-white transition text-white/70"
             href="mailto:hello@yourbusiness.com"
           >
             hello@yourbusiness.com
           </a>
         </div>
-        <div className="text-center text-neutral-400">Sydney, Australia</div>
-        <div className="flex items-center justify-center md:justify-end gap-3 text-neutral-400">
+        <div className="text-center text-white/70">Sydney, Australia</div>
+        <div className="flex items-center justify-center md:justify-end gap-3 text-white/70">
           <span>© 2026 [Business Name]. All rights reserved.</span>
         </div>
       </div>

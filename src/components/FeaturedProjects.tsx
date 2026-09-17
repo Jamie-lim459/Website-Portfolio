@@ -70,7 +70,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
       <div className="relative z-10 flex justify-center">
-        <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-black/60 backdrop-blur-md border border-neutral-700 text-xs text-neutral-200 hover:bg-white hover:text-black transition-all">
+        <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-black/60 backdrop-blur-md border border-neutral-700 text-xs text-white hover:bg-white hover:text-black transition-all">
           View Casestudy <span>↗</span>
         </button>
       </div>
@@ -91,7 +91,7 @@ export default function FeaturedProjects() {
       </div>
 
       <Reveal className="mt-12 flex items-center justify-center gap-3" delay={2}>
-        <button className="px-5 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs sm:text-sm text-neutral-300 hover:text-white hover:bg-neutral-800 transition">
+        <button className="px-5 py-2.5 rounded-full bg-neutral-900 border border-neutral-800 text-xs sm:text-sm text-white/90 hover:text-white hover:bg-neutral-800 transition">
           All Projects
         </button>
         <button className="px-5 py-2.5 rounded-full bg-white text-black text-xs sm:text-sm font-medium hover:bg-neutral-200 transition">

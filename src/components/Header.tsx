@@ -38,7 +38,7 @@ export default function Header() {
         </span>
       </a>
 
-      <nav className="hidden md:flex items-center gap-8 text-[13px] font-medium text-neutral-400">
+      <nav className="hidden md:flex items-center gap-8 text-[13px] font-medium text-white/70">
         {NAV_LINKS.map((link) => (
           <a
             key={link.href}
