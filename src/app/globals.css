@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --color-base: #050505;
   --color-elevated: #121212;
   --color-subtle: #171717;
   --color-card: rgba(255, 255, 255, 0.08);
