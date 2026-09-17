@@ -1,4 +1,9 @@
 # https://developers.cloudflare.com/workers/static-assets/headers
 # https://opennext.js.org/cloudflare/caching#static-assets-caching
+# Don't cache the HTML document so updates appear immediately
+/
+  Cache-Control: public,max-age=0,no-cache
+  CDN-Cache-Control: no-store
+# Immutable cache for hashed next static assets
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
