@@ -53,7 +53,7 @@ const FAQS = [
 ];
 
 export default function FAQ() {
-  const [open, setOpen] = useState<number>(0);
+  const [open, setOpen] = useState<number>(-1);
 
   return (
     <section
